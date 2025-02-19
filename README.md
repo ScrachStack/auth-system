@@ -91,3 +91,4 @@ class Program
 
 - Node.js **v16** or **Higher** is required.
 
+- MySQL
