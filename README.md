@@ -83,7 +83,9 @@ class Program
 
 ## Setup
 
-Edit ``secret_API`` inside of ``config.json`` then go to ``http://localhost/add-ip?KEY=YOURKEY``
+- Insert ``INSERT.SQL`` into your mysql database.
+
+- Edit ``secret_API`` inside of ``config.json`` then go to ``http://localhost/add-ip?KEY=YOURKEY``
 
 ## Reqirements
 
