@@ -89,6 +89,3 @@ Edit ``secret_API`` inside of ``config.json`` then go to ``http://localhost/add-
 
 - Node.js **v16** or **Higher** is required.
 
-
-## Credits 
-
