@@ -43,7 +43,13 @@ const apiKeyMiddleware = (req, res, next) => {
     return res.status(403).send('Forbidden: Invalid API Key');
   }
 };
-
+app.get('/', async (req, res) => {
+    let s = {
+        "Active": true,
+        "creator": "ScrachStack"
+    }
+    res.type('json').send(JSON.stringify(s, null, 4) + '\n');
+});
 app.get('/add-ip', apiKeyMiddleware, (req, res) => {
     res.render('add-ip.ejs'); 
   });
