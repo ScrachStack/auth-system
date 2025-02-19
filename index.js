@@ -128,7 +128,7 @@ const loadCommands = async () => {
         client.commands.set(command.data.name, command);
         commands.push(command.data);
     }
-    const rest = new REST({ version: '10' }).setToken(token);
+    const rest = new REST({ version: '10' }).setToken(config.bot.BOT_TOKEN);
     try {
         console.log('Started refreshing application (/) commands.');
         await rest.put(
