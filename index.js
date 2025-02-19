@@ -78,9 +78,6 @@ app.get('/fonts/futur.ttf', function(req, res) {
 
 app.get('/' + URLS.LicenseCheck, (req, res) => {
     const ip = ParseSourceIPOfRequest(req); 
-    console.log(`Request received from IP: ${ip}`);
-
-
     con.query("SELECT * FROM server_licensing WHERE ip='" + ip + "' AND whitelisted=1;", function (err, result) {
         if (err) {
             console.error('Database error:', err);
