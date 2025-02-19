@@ -67,15 +67,6 @@ app.get('/add-ip', apiKeyMiddleware, (req, res) => {
       res.redirect('/add-ip'); 
     });
   });
-    
-app.get('/style.css', function(req, res) {
-    res.sendFile(__dirname + "/html/style.css");
-});
-
-app.get('/fonts/futur.ttf', function(req, res) {
-    res.sendFile(__dirname + "/html/fonts/futur.ttf");
-});
-
 app.get('/' + URLS.LicenseCheck, (req, res) => {
     const ip = ParseSourceIPOfRequest(req); 
     con.query("SELECT * FROM server_licensing WHERE ip='" + ip + "' AND whitelisted=1;", function (err, result) {
