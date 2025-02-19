@@ -7,7 +7,6 @@
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T01APGOO)
 
-![2sy83e](https://github.com/user-attachments/assets/d23229ba-bf41-4498-a761-aa7f587c8d0a)
 
 ## Reqirements
 
