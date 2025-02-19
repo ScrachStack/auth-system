@@ -80,6 +80,11 @@ class Program
             {
                 Console.WriteLine("License Deactivated!");}}}}
 ```
+
+## Setup
+
+Edit ``secret_API`` inside of ``config.json`` then go to ``http://localhost/add-ip?KEY=YOURKEY``
+
 ## Reqirements
 
 - Node.js **v16** or **Higher** is required.
