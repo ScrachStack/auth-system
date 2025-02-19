@@ -1,4 +1,10 @@
 {   "port": "80",
-    "secret_API": "kFd5wTgN9rLzYjC8pM3xVb2sGJ6uHqQ5KkLvU1oPzTnW9iB" 
+    "secret_API": "kFd5wTgN9rLzYjC8pM3xVb2sGJ6uHqQ5KkLvU1oPzTnW9iB",
+    "mysql": {
+        "host": "localhost",
+        "user": "root",
+        "password": "your-password-here", 
+        "database": "servers"
+      }
   }
   
