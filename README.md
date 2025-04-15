@@ -5,6 +5,9 @@
 	</h1>
 <br/>
 
+[![Discord](https://img.shields.io/badge/Discord-Support-5865F2?style=flat&logo=discord&logoColor=white)](https://discord.gg/tgrU8wgeHx) 
+
+
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T01APGOO)
 
 ![xng4ud](https://github.com/user-attachments/assets/d246c09f-2c1f-4707-82f7-664631ab1136)
